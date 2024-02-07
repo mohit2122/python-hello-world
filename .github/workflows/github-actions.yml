@@ -15,6 +15,8 @@ jobs:
           
         - name: Setup AWS ECR Details
           uses: aws-actions/configure-aws-credentials@v1
+
+          aws-region: us-east-1
           
 
 
